@@ -50,31 +50,3 @@ if (testScore <= 100) {
     console.log(grade);
 }
 
-
-//conditionals : switch statements
-
-let playerOne = "paper";
-let computer = "rock";
-
-switch (playerOne) {
-    case computer:
-        console.log("tie game");
-        break;
-    case "rock":
-        if (computer==="paper"){
-            console.log("computer wins");
-        } else {
-            console.log("playerOne wins");
-        }
-        break;
-    default:
-        if (computer === "rock"){
-            console.log("computer wins");
-        }
-            else {
-                console.log("PlayerOne wins");
-            }
-
-        }
-
-
